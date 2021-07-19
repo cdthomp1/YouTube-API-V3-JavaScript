@@ -1,5 +1,5 @@
 // Options
-const CLIENT_ID = '______________';
+const CLIENT_ID = '988418718532-s8f181qv6vfl6gb866c84qgnb1kal298.apps.googleusercontent.com';
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"];
 const SCOPES = 'https://www.googleapis.com/auth/youtube.readonly';
 
@@ -82,7 +82,7 @@ function getChannel(channel){
 			</ul>
 			<p>${channel.snippet.description}</p>
 			<hr />
-			<a class="btn red darken-2" target="_blnak" href="https://youtube.com/${channel.snippet.customUrl}">Visit Channel</a>
+			<a class="btn red darken-2" target="_blank" href="https://youtube.com/${channel.snippet.customUrl}">Visit Channel</a>
 		`;
 		showChannelData(output);
 	})
